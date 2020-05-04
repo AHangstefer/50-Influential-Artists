@@ -98,23 +98,31 @@ header nav a {
   white-space: nowrap;
 }
 .title-container {
-  position: relative;
-  text-align: center;
-}
-.title-container img {
-  width: 90%;
-  height: auto;
+  background-image: url("../assets/home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 95%;
+  height: 40rem;
+  margin-left: 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .title-container div {
-  position: absolute;
-  top: 20%;
-  bottom: 60%;
-  margin-left: 50%;
-  margin-right: 50%;
+  align-self: center;
+  font-size: 8rem;
+  color: white;
+  text-align: center;
+  width: 50rem;
 }
 .title-container .btn {
-  position: absolute;
-  top: 60%;
-  bottom: 20%;
-  margin-right: 50%;
+  align-self: center;
+  font-size: 1.75rem;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin-top: 2%;
+  border: lightgray;
+  border-radius: 5%;
 }
