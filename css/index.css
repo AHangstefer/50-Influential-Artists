@@ -1,3 +1,11 @@
+.centeringColumn {
+  display: flex;
+  flex-direction: column;
+}
+.centeringRow {
+  display: flex;
+  flex-direction: row;
+}
 html,
 body,
 div,
@@ -90,6 +98,7 @@ header nav {
   display: flex;
   justify-content: center;
   padding: 4%;
+  color: #000000;
 }
 header nav a {
   font-size: 1.75rem;
@@ -108,6 +117,7 @@ header nav a {
   flex-direction: column;
   justify-content: center;
   margin-bottom: 4%;
+  opacity: 1;
 }
 .title-container div {
   align-self: center;
@@ -117,15 +127,17 @@ header nav a {
   width: 50rem;
 }
 .title-container .btn {
-  align-self: center;
-  font-size: 1.5rem;
   padding-right: 4%;
   padding-left: 4%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   margin-top: 1.2%;
-  border: lightgray;
   border-radius: 5%;
+  font-size: 1.5rem;
+  align-self: center;
+}
+.title-container:hover {
+  opacity: 80%;
 }
 .artists-container {
   display: flex;
@@ -135,7 +147,7 @@ header nav a {
   border-top: lightgray 0.2rem solid;
 }
 .artists-container .artist {
-  display: flex ;
+  display: flex;
   flex-direction: column;
   padding: 2%;
   width: 30rem;
@@ -147,8 +159,11 @@ header nav a {
 }
 .artists-container .artist a {
   text-decoration: none;
-  color: slategrey;
+  color: #00001a;
   align-self: center;
   padding: 4%;
   font-size: 1.5rem;
+}
+.artists-container img:hover {
+  opacity: 80%;
 }
