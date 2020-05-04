@@ -25,10 +25,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing in css is a way to keep your code dry by using functions. For instance, if you have to change colors on text you can, instead of giving the value "blue" to every text, give it a @color value. That way, you can change the color everywhere @color was placed at one time.
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite preprocessing concept is probably parametric mixins but they also give me the most trouble right now. 
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+I would say that variables are place holders with names. They're accessed by thier name, and the value is easily changed. When working with lots of data, they're very helpful.
+
 4. What is the purpose of using functions in code?
+
+To be able to do the same thing, as many times as needed, with different data. 
+
 5. What is a JSON data?
+
+A JSON file is a file that stores simple data structures and objects in JavaScript Object Notation (JSON) format, which is a standard data interchange format. It is primarily used for transmitting data between a web application and a server.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
