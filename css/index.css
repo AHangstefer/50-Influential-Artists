@@ -92,7 +92,7 @@ header nav {
   padding: 4%;
 }
 header nav a {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   text-decoration: none;
   padding: 0.2%;
   white-space: nowrap;
@@ -107,6 +107,7 @@ header nav a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 4%;
 }
 .title-container div {
   align-self: center;
@@ -117,12 +118,37 @@ header nav a {
 }
 .title-container .btn {
   align-self: center;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   padding-right: 4%;
   padding-left: 4%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
-  margin-top: 2%;
+  margin-top: 1.2%;
   border: lightgray;
   border-radius: 5%;
+}
+.artists-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  border-top: lightgray 0.2rem solid;
+}
+.artists-container .artist {
+  display: flex ;
+  flex-direction: column;
+  padding: 2%;
+  width: 30rem;
+  margin-top: 2%;
+}
+.artists-container .artist img {
+  width: 30rem;
+  height: 25rem;
+}
+.artists-container .artist a {
+  text-decoration: none;
+  color: slategrey;
+  align-self: center;
+  padding: 4%;
+  font-size: 1.5rem;
 }
