@@ -106,6 +106,9 @@ header nav a {
   padding: 0.2%;
   white-space: nowrap;
 }
+header nav a:hover {
+  color: #000000;
+}
 .title-container {
   background-image: url("../assets/home.png");
   background-repeat: no-repeat;
