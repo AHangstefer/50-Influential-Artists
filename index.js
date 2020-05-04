@@ -226,39 +226,48 @@ console.log(artists[8].name ="Vincent Van Gogh");
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
-function getArtistByIndex(id, name) {
+function getArtistByIndex(array, index) {
 
-  const name =artists[id].name;
-  return `The artist at index {id} is {name}.`
+  const newName =array[index];
+  console.log( `The artist at index ${index} is ${newName.name}.`)
 
 }
-getArtistByIndex(0, artists);
-console.log("artists")
+getArtistByIndex(artists, 0);
+
   /**
 
 
 /* Task 4: Create a function called `removeArtist` that takes two arguments:
  *     (1) artists array
  *     (2) a number which is the desired index in the array.
- * removeArtist removes an artist from the dat array at the index.
+ * removeArtist removes an artist from the data array at the index.
  * 
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
-function removeArtist(num, array) {
+function removeArtist(array, index) {
+
+    let remove= array.splice(index, 1);
    
-  }
-  removeArtist()
+}
+removeArtist(artists, 0);
+
   /**
 
 
-/* Task 5: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
+/* Task 5: Create a function called lotsOfArt() that takes artists as
+ an argument and returns an array with names of artists who painted 
+ more than 100 paintings */
 
-function lotsOfArt(/* Code here */){
-
-    /* Code here */
-
+function lotsOfArt(array){
+  let lotsOpaintings=[];
+  for (let i=0; i<array.length; i++)
+  if (array[i].paintings >=100){
+    lotsOpaintings.push(array[i].name)
   }
+  console.log(lotsOpaintings);
+}
+lotsOfArt(artists);
 
 
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
