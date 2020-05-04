@@ -89,5 +89,32 @@ video {
 header nav {
   display: flex;
   justify-content: center;
-  padding-top: 2%;
+  padding: 4%;
+}
+header nav a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  padding: 0.2%;
+  white-space: nowrap;
+}
+.title-container {
+  position: relative;
+  text-align: center;
+}
+.title-container img {
+  width: 90%;
+  height: auto;
+}
+.title-container div {
+  position: absolute;
+  top: 20%;
+  bottom: 60%;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+.title-container .btn {
+  position: absolute;
+  top: 60%;
+  bottom: 20%;
+  margin-right: 50%;
 }
