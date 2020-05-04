@@ -270,7 +270,9 @@ function lotsOfArt(array){
 lotsOfArt(artists);
 
 
-/* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
+/* Task 6: Create a function called `addArtist` that can accept an array of
+ information and add it to the artists array. Then, Add a 21st artist to the 
+ array (you) with custom information! 👩‍🎨👨‍🎨
 
 id: 21
 name: Your Name Here, 
@@ -279,11 +281,17 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(/* Code here */){
+let imAnartist=[{'id': 21, 'name': 'Anna Hangstefer', 
+'years': "1985 - Not adding current day because that's creepy",
+'genre': 'Web Design', 
+'nationality': 'American',
+'bio': "Mom, artist, student of yoga and web development, living the dream while having panic attacks"}];
 
-    /* Code here */
-
-  }
+function addArtist(array){
+newArray= artists.concat(imAnartist);
+console.log(newArray);
+}
+addArtist(artists);
 
 
 
